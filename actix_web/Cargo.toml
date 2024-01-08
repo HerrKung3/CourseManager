@@ -1,0 +1,2 @@
+[workspace]
+members = ["websevice", "webapp", "wasm-client"]
