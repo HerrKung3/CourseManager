@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teacher registration</title>
+    <link rel="stylesheet" href="/static/css/register.css" />
+</head>
+
+<body>
+    <h2 class="header">Teacher registration</h2>
+    <div class="center">
+        <form action="/register-post" method="POST">
+            <label for="name">Teacher name</label><br />
+            <input type="text" name="name" id="name" value="{{current_name}}" maxlength="">
+        </form>
+    </div>
+</body>
+</html>
